@@ -1,0 +1,433 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body{
+    margin: 0px;
+}
+main{
+    padding: 0px;
+}
+div{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    margin: 0 auto;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    letter-spacing: 0.2px;        
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.4%;
+    letter-spacing: 0.2px;
+}
+article{
+    padding: 0px 0px;
+    position: relative;
+    top: 0px;
+}
+.yellow-type{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 139.4%;
+    letter-spacing: 9.7px;
+    text-transform: uppercase;
+    color: #FF9900;
+}
+.center-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.s-n-logo{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+//end of global styles
+//header styles
+.contact-info{
+    height: 54px;
+    background-color: rgba($color: #000, $alpha: 0.31);
+    .row{
+        height: 54px;
+    }
+    p{
+      
+            display: inline;
+            font-size: 16px;
+            margin: 0px 20px;
+        
+    }
+}
+.menus-container{
+    height: 80px;
+}
+nav{
+    height: 80px;
+    .logo{
+        display: inline;
+        p{
+            display: inline;
+            text-transform: uppercase;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 80px;
+            letter-spacing: 0.07em;
+            color: #FF9900;        
+        }
+    }  
+    a{
+        margin: 0px 40px;
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #FF9900;
+        /* зробити підкреслення в афтер */
+        text-decoration: underline;
+    } 
+    .order-call{
+        color:  #FF9900;
+        border: 2px solid  #FF9900;
+        padding: 8px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;        
+    }
+    .order-call:hover, .order-call:active {
+        background-color:  #FF9900;
+        text-decoration: none;
+        color: white;
+      }
+}
+.navbar{      
+    .logo{
+            display: inline;
+            text-transform: uppercase;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 80px;
+            letter-spacing: 0.07em;
+            color: #FF9900;        
+    }   
+    a{
+        color: #fff;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #FF9900;
+        /* зробити підкреслення в афтер */
+        text-decoration: underline;
+    }
+    .order-call{
+        color:  #FF9900;
+        border: 2px solid  #FF9900;
+        padding: 8px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;        
+    }
+    .order-call:hover, .order-call:active {
+        background-color:  #FF9900;
+        text-decoration: none;
+        color: white;
+      }
+}
+
+// end og header styles
+// first page styles
+
+.homepage{    
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.66) 0%, rgba(0, 0, 0, 0) 100%), url(../img/7ae12d32d738c359ad8b0af94684fb56.jpg);
+    background-size: cover;
+    .content{
+        padding: 0;
+    }
+    .mycllass > * {
+        margin: 30px;
+    }
+    h1,p{
+        color: #fff;
+    }
+    .leave-request{
+        width: 166px;
+        height: 50px;
+        border: none;
+        background-color: #FF9900;
+        color: #fff;
+        box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.32);
+    }
+    .leave-request:hover, .leave-request:active{
+        box-shadow: 1px 1px 18px 4px rgba(255, 153, 0, 0.8);
+        color: #915700;
+        font-weight: 900;
+    }
+    .blur{
+        height: 169px;        
+        backdrop-filter: blur(10px);
+        padding: 0;
+        .business-icons{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 169px;
+            height: 169px;
+            p{
+                position: relative;
+                top: 10%;
+                left: 30px;
+            }
+        }
+        img{
+            height: 92px;
+        }
+    }
+}
+
+// end of first psge styles
+// who-we are styles
+
+.who-we-are{
+    height: 700px;
+    background-image: url(../img/91dd28dccce835aa38b972286c1fb32f.jpg), url(../img/bedroom.png);
+    background-size: 50%, 35%;
+    background-repeat: no-repeat;
+    background-position: top -100px left -150px, right -50px bottom -100px;
+}
+.yellow-box{
+    position: absolute;
+    width: 238px;
+    height: 220px;
+    left: -388px;
+    top: 303px;  
+    background: #FFB800;
+    p:first-child{
+        position: absolute;
+        left: 23px;        
+        top: 33px;
+        font-family: Playfair Display;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 70px;
+        line-height: 139.4%;letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    p:last-child{
+        position: absolute;
+        left: 23px;        
+        top: 120px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 139.4%;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+}
+
+//end of who we are styles
+//how we work styles
+
+.how-we-work{
+    background-color: #000;
+    height: 531px;
+    h1{
+        color: #fff;
+    }
+    .one-six-container{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;  
+        .under-object{
+            position: absolute; 
+            width:900px;
+            height:2px;
+            left: 70px;
+            top: 37px;
+            background-color:#fff;
+            z-index: 1;
+        }   
+        .round-container{
+            width: 200px;
+            z-index: 2;
+        }
+        p:nth-child(odd){
+            font-family: Playfair Display;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 40px;
+            line-height: 139.4%;
+            letter-spacing: 0.2px;
+            color: #fff;
+        }
+        p:nth-child(even){
+            margin-top: 25px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 139.4%;
+            letter-spacing: 0.2px;
+            color: #fff;
+        }
+    }
+    .round{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 66px;
+        height: 66px;
+        background-color: #000;
+        border-radius: 50%;
+        border: #FFB800 3px solid;   
+              
+    }  
+}
+// end of how we work styles
+// our works styles
+.our-works{
+    background-image: url(../img/bedroom.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center bottom -100px;
+}
+// end of our works styles
+// our clients talk styles
+.our-clients-talk{
+   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.68) 0%, rgba(0, 0, 0, 0.48) 100%), url(../img/de4e129050e9166cb34e3f90c1033988.jpg);
+    background-size:  100% 671px;
+    background-repeat: no-repeat;
+}
+.clients-talk-container{
+    width: 766px;
+    height: 671px;
+    padding: 0 96px;
+    backdrop-filter: blur(10px);
+    h1,p:nth-child(1n+2){
+        :after{
+            content: "”";
+            position: absolute;
+            top: 150px;
+            right: 80px;
+            font-family: 'Playfair Display';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 300px;
+            line-height: 400px;
+            letter-spacing: 0.01em;        
+            color: rgba(255, 255, 255, 0.12);
+        }
+        color: #fff;
+    }
+}
+.some-style{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+}
+.pseudo-controls{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .fas{
+        color: rgba($color: #fff, $alpha: 0.6);
+    }
+    .active{
+        color: #FFB800;
+    }
+}
+// end of clients talk styles
+// contact us styles
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:  #FFB800;
+    height: 400px;
+    .form-container{
+        height: 250px;
+    }
+    h1{
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 40px;
+        color: #fff;
+    }
+    p{
+        font-size: 18px;
+        line-height: 21px;
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+    }
+    input{
+        color: #fff;
+        background-color:  #FFB800;
+        border: none;
+        border-radius: 0px;
+        border-bottom: 1px solid #fff;
+    }
+    :focus{
+        background-color:  #FFB800;
+        color: #fff;
+        box-shadow:none;
+        border-radius: 0px;
+        border-bottom: 1px solid #fff;
+    }
+    .form-control::placeholder { 
+        color:#fff;
+    }
+    button{
+        width: 128px;
+        height: 42px;
+        border: none;
+        color: #FFB800;
+    }
+}
+// end of contact us styles
+// footer styles
+.footer{
+    background-color: #000;
+    height: 400px;
+    .footer-container{
+        height: 400px;
+    }
+    p{
+        font-family: Gilroy;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: -0.7px;
+        color: #fff;
+    }
+}
